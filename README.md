@@ -16,8 +16,7 @@ Also I don't have much access yet so I had time.
 
 - The configuration asks for the DNS server(s) but does not contains directions
   about what to do with them. Add these lines to the resulting configuration:
-
-  ```
+```
 script-security 2
 # up /etc/openvpn/update-resolv-conf
 # down /etc/openvpn/update-resolv-conf
